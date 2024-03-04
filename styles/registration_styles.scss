@@ -1,0 +1,340 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #222222;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .header_left,
+  .header_reght {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+  }
+  
+  .top_head {
+    background-color: rgb(248, 243, 244);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .top_head_heading {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    font-style: normal;
+    color: #F16D7F;
+  }
+  
+  .breadcrumbs {
+    list-style-type: none;
+    display: flex;
+  }
+
+.registration{
+    display: flex;
+    justify-content: space-between;
+    &_name{
+        padding-top: 64px;
+        padding-bottom: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+    }
+    &__form_First{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+        padding-bottom: 20px;
+        
+    }
+    &_First{
+        width: 360px;
+        padding-top: 13px;
+        padding-bottom: 16px;
+        padding-left: 17px;
+        border: 1px solid  #A4A4A4;
+    }
+    &_Last{
+        width: 360px;
+        padding-top: 13px;
+        padding-bottom: 16px;
+        padding-left: 17px;
+        border: 1px solid  #A4A4A4;
+    }
+    &__form_Gender{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+       padding-top: 34px;
+    }
+    &_text{
+        max-width: 360px;
+        padding-top: 15px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+    }
+    &_button{
+        margin-top: 39px;
+        margin-bottom: 96px;
+        color: white;
+        background:#F16D7F;
+        padding: 16px 20px;
+        border: 1px solid #F16D7F;
+        fill:white;
+    }
+    &_button:hover{
+        color: #F16D7F;
+        fill: #F16D7F;
+        background:white;
+    }
+}
+
+.registration__info{
+    max-width: 652px;
+    &_title{
+        margin-top: 64px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+    &_text{
+        padding-top: 22px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+    &_list{
+        list-style-type: none;
+       
+    }
+   
+
+
+}
+
+.registration__info_list li:before {
+    content: '✓ ';
+}
+li{
+    padding-top: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+  section{
+    background: url(../img/footer/info_order/subscription_form/background.png) rgba(244, 244, 244, 0.70);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+}
+
+.subscription_form{
+    
+    min-height: 448px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.citation, .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.author{
+    margin-bottom: 30px;
+}
+
+.text_citation{
+    color: #222224;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.subtitle_form{
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%
+}
+
+.text_form{
+    color: #222224;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+}
+
+.subscribe_newsletter{
+    display: flex;
+    padding-top: 10%;
+}
+.input_email_form {
+    background-color: #E1E1E1;
+    border: none;
+    height: 2.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    padding-left: 10%;
+}
+.input_email_form:focus-visible {
+    outline: none;
+}
+
+.subscribe{
+    background-color: #F16D7F;
+    border: none;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 0% 10% ;
+}
+
+footer{
+    background-color: #222224;
+    color: #222224;
+}
+
+.info_contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.info_footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_list{
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+    column-gap: 7px;
+    
+}
+
+
+
+.button_icon{
+    width: 31.451px;
+    height: 32px;
+    fill: #000000;
+}
+
+.button_icon:hover {
+    fill: #FFFFFF;
+    background-color:#F16D7F;
+    transition: 0.7s;
+}
+
+@media (max-width: 768px) {
+    .registration__info{
+        padding-left: 22px;
+        padding-right: 16px;
+    }
+    .registration__info_title{
+        font-size: 16px;
+    }
+    .registration__info_text{
+        font-size: 16px;
+    }
+    .registration__info_list{
+        font-size: 16px;
+    }
+
+
+    
+    .subscription_form{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media (max-width:425px ){
+    .registration{
+        flex-direction: column;
+        align-items: center;
+    }
+}
